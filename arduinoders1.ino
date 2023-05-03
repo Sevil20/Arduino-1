@@ -21,7 +21,7 @@ int sirPin=12;
 int pgmPin=11;
 int pwrPin=10;
 
-int lcd;
+int lcd=1;
 
 void setup() {
   pinMode(zone1Pin, INPUT_PULLUP);
